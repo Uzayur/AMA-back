@@ -174,5 +174,164 @@ export const recipes: Recipe[] = [
             "Préchauffer le four à 150°C. Faire chauffer la crème avec la gousse de vanille fendue. Battre les jaunes d'œufs avec le sucre. Retirer la gousse de vanille de la crème et la verser sur le mélange d'œufs et de sucre. Répartir la crème dans des ramequins et cuire au four pendant 30-40 minutes. Saupoudrer de sucre cassonade et caraméliser à l'aide d'un chalumeau ou du gril du four.",
         createdAt: new Date(),
         updatedAt: new Date()
+    },
+    {
+        id: 11,
+        name: "Salade César",
+        description: "Salade classique aux anchois et au parmesan",
+        ingredients: [
+            "Laitue romaine",
+            "Poulet grillé",
+            "Croûtons de pain",
+            "Anchois",
+            "Parmesan râpé",
+            "Sauce César"
+        ],
+        instructions: "Mélanger la laitue romaine, le poulet grillé, les croûtons de pain, les anchois et le parmesan râpé. Arroser de sauce César et servir.",
+        createdAt: new Date(),
+        updatedAt: new Date()
+    },
+    {
+        id: 12,
+        name: "Risotto aux Champignons",
+        description: "Plat italien crémeux aux champignons",
+        ingredients: [
+            "Riz Arborio",
+            "Champignons",
+            "Bouillon de légumes",
+            "Oignon",
+            "Vin blanc sec",
+            "Parmesan râpé"
+        ],
+        instructions: "Faire revenir l'oignon dans de l'huile d'olive. Ajouter le riz Arborio et cuire jusqu'à ce qu'il devienne translucide. Verser le vin blanc et laisser évaporer. Ajouter progressivement le bouillon de légumes et les champignons. Incorporer le parmesan râpé pour obtenir un risotto crémeux.",
+        createdAt: new Date(),
+        updatedAt: new Date()
+    },
+    {
+        id: 13,
+        name: "Bœuf Bourguignon",
+        description: "Plat français traditionnel de bœuf mijoté au vin rouge",
+        ingredients: [
+            "Viande de bœuf",
+            "Vin rouge",
+            "Oignon",
+            "Carottes",
+            "Champignons",
+            "Bouquet garni"
+        ],
+        instructions: "Faire revenir la viande de bœuf, les oignons et les carottes. Ajouter du vin rouge et laisser mijoter. Incorporer les champignons et le bouquet garni. Cuire lentement jusqu'à ce que la viande soit tendre.",
+        createdAt: new Date(),
+        updatedAt: new Date()
+    },
+    {
+        id: 14,
+        name: "Pizza Margherita",
+        description: "Pizza italienne classique à la tomate et à la mozzarella",
+        ingredients: [
+            "Pâte à pizza",
+            "Sauce tomate",
+            "Mozzarella",
+            "Basilic frais",
+            "Huile d'olive"
+        ],
+        instructions: "Étaler la pâte à pizza et étaler la sauce tomate. Garnir de mozzarella et de feuilles de basilic. Cuire au four jusqu'à ce que la croûte soit dorée. Arroser d'huile d'olive avant de servir.",
+        createdAt: new Date(),
+        updatedAt: new Date()
+    },
+    {
+        id: 15,
+        name: "Poulet au Curry",
+        description: "Plat épicé de poulet au curry indien",
+        ingredients: [
+            "Poulet",
+            "Oignon",
+            "Ail",
+            "Curry en poudre",
+            "Lait de coco",
+            "Riz"
+        ],
+        instructions: "Faire revenir l'oignon et l'ail. Ajouter le poulet et faire cuire. Incorporer le curry en poudre et le lait de coco. Servir avec du riz cuit à la vapeur.",
+        createdAt: new Date(),
+        updatedAt: new Date()
+    },
+    {
+        id: 16,
+        name: "Sushi",
+        description: "Spécialité japonaise de riz vinaigré garni de poisson et de légumes",
+        ingredients: [
+            "Riz vinaigré",
+            "Poisson cru",
+            "Avocat",
+            "Concombre",
+            "Algues nori",
+            "Wasabi et sauce soja"
+        ],
+        instructions: "Étaler une couche de riz sur une feuille d'algue nori. Ajouter du poisson, de l'avocat et du concombre. Enrouler en utilisant une natte de bambou. Trancher en morceaux et servir avec du wasabi et de la sauce soja.",
+        createdAt: new Date(),
+        updatedAt: new Date()
+    },
+    {
+        id: 17,
+        name: "Tacos",
+        description: "Tortillas garnies de viande, de légumes et de salsa",
+        ingredients: [
+            "Tortillas de maïs",
+            "Viande hachée",
+            "Laitue",
+            "Tomates",
+            "Fromage râpé",
+            "Salsa"
+        ],
+        instructions: "Faire cuire la viande hachée. Garnir les tortillas de viande, de laitue, de tomates, de fromage râpé et de salsa. Replier et déguster.",
+        createdAt: new Date(),
+        updatedAt: new Date()
+    },
+    {
+        id: 18,
+        name: "Soupe de Tomate",
+        description: "Soupe chaude de tomates mûres",
+        ingredients: [
+            "Tomates",
+            "Oignon",
+            "Ail",
+            "Bouillon de légumes",
+            "Basilic frais",
+            "Crème fraîche"
+        ],
+        instructions: "Faire revenir l'oignon et l'ail. Ajouter les tomates et le bouillon de légumes. Cuire jusqu'à ce que les tomates soient tendres. Mixer et ajouter du basilic frais et de la crème fraîche.",
+        createdAt: new Date(),
+        updatedAt: new Date()
+    },
+    {
+        id: 19,
+        name: "Pâtes Alfredo",
+        description: "Pâtes crémeuses à la sauce Alfredo",
+        ingredients: [
+            "Pâtes fettuccine",
+            "Crème fraîche",
+            "Beurre",
+            "Parmesan râpé",
+            "Persil",
+            "Sel et poivre"
+        ],
+        instructions: "Cuire les pâtes fettuccine. Dans une casserole, faire fondre le beurre, ajouter la crème fraîche et le parmesan râpé. Incorporer les pâtes cuites et assaisonner avec du persil, du sel et du poivre.",
+        createdAt: new Date(),
+        updatedAt: new Date()
+    },
+    {
+        id: 20,
+        name: "Moules Marinières",
+        description: "Moules cuites dans une sauce au vin blanc",
+        ingredients: [
+            "Moules",
+            "Vin blanc sec",
+            "Oignon",
+            "Ail",
+            "Persil",
+            "Baguette"
+        ],
+        instructions: "Faire revenir l'oignon et l'ail dans une grande casserole. Ajouter les moules et le vin blanc. Cuire jusqu'à ce que les moules s'ouvrent. Servir avec du persil et des tranches de baguette.",
+        createdAt: new Date(),
+        updatedAt: new Date()
     }
 ];
