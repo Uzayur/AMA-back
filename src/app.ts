@@ -8,6 +8,7 @@ app.use(json());
 
 // Allow cross-origin requests
 const corsOptions = {
+    // Front url
     origin: 'http://localhost:4200',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
 };
