@@ -1,9 +1,17 @@
 import express from 'express';
+import cors from 'cors';
 import { json } from 'body-parser';
 import { RecipeRoutes } from './routes/recipes';
 
 const app = express();
 app.use(json());
+
+// Allow cross-origin requests
+const corsOptions = {
+    origin: 'http://localhost:4200',
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+};
+app.use(cors(corsOptions));
 
 app.use('/api/recipes', RecipeRoutes);
 
